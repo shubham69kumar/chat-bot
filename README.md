@@ -14,10 +14,10 @@
 
     
 #Codebase Overview
-1)config/config.json: Configuration file for the database.
-2)models: Contains Sequelize model definitions for User, Chatbot, Conversation, and EndUser.
-3)routes: Contains route handler files for each entity (users, chatbots, conversations, endusers).
-4)index.js: Main application file that establishes the server and mounts the routers.
+1)config/config.json: Configuration file for the database.\
+2)models: Contains Sequelize model definitions for User, Chatbot, Conversation, and EndUser.\
+3)routes: Contains route handler files for each entity (users, chatbots, conversations, endusers).\
+4)index.js: Main application file that establishes the server and mounts the routers.\
 
 #Users
 >POST /users: Create a new user.
