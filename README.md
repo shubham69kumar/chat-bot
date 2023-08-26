@@ -14,49 +14,49 @@
 
     
 #Codebase Overview
-    >config/config.json: Configuration file for the database.
-    >models: Contains Sequelize model definitions for User, Chatbot, Conversation, and EndUser.
-    >routes: Contains route handler files for each entity (users, chatbots, conversations, endusers).
-    >index.js: Main application file that establishes the server and mounts the routers.
+>config/config.json: Configuration file for the database.
+>models: Contains Sequelize model definitions for User, Chatbot, Conversation, and EndUser.
+>routes: Contains route handler files for each entity (users, chatbots, conversations, endusers).
+>index.js: Main application file that establishes the server and mounts the routers.
 
 
  #Routes
     #Users
-        >POST /users: Create a new user.
-        >GET /users: List all users.
-        >GET /users/:id: Retrieve a single user.
-        >PUT /users/:id: Update a user.
-        >DELETE /users/:id: Delete a user.
+    >POST /users: Create a new user.
+    >GET /users: List all users.
+    >GET /users/:id: Retrieve a single user.
+    >PUT /users/:id: Update a user.
+    >DELETE /users/:id: Delete a user.
     #Chatbots
-        >POST /users/:userId/chatbots: Create a new chatbot for a user.
-        >GET /users/:userId/chatbots: List all chatbots for a user.
-        >GET /chatbots/:chatbotId: Retrieve a single chatbot.
-        >PUT /chatbots/:chatbotId: Update a chatbot.
-        >DELETE /chatbots/:chatbotId: Delete a chatbot.
+    >POST /users/:userId/chatbots: Create a new chatbot for a user.
+    >GET /users/:userId/chatbots: List all chatbots for a user.
+    >GET /chatbots/:chatbotId: Retrieve a single chatbot.
+    >PUT /chatbots/:chatbotId: Update a chatbot.
+    >DELETE /chatbots/:chatbotId: Delete a chatbot.
     #Conversations
-        >POST /chatbots/:chatbotId/conversations: Start a new conversation for a chatbot.
-        >GET /chatbots/:chatbotId/conversations: List all conversations for a chatbot.
-        >GET /conversations/:conversationId: Retrieve a single conversation.
-        >PUT /conversations/:conversationId: Update a conversation.
-        >DELETE /conversations/:conversationId: End/delete a conversation.
+    >POST /chatbots/:chatbotId/conversations: Start a new conversation for a chatbot.
+    >GET /chatbots/:chatbotId/conversations: List all conversations for a chatbot.
+    >GET /conversations/:conversationId: Retrieve a single conversation.
+    >PUT /conversations/:conversationId: Update a conversation.
+    >DELETE /conversations/:conversationId: End/delete a conversation.
     #End Users
-        >POST /endusers: Register a new end user.
-        >GET /endusers: List all end users.
-        >GET /endusers/:endUserId: Retrieve details of a single end user.
-        >PUT /endusers/:endUserId: Update end user details.
-        >DELETE /endusers/:endUserId: Delete an end user.
+    >POST /endusers: Register a new end user.
+    >GET /endusers: List all end users.
+    >GET /endusers/:endUserId: Retrieve details of a single end user.
+    >PUT /endusers/:endUserId: Update end user details.
+    >DELETE /endusers/:endUserId: Delete an end user.
  
   
-  #Usage
-        >Access the API using tools like Postman or curl.
-        >For detailed request and response formats, refer to the provided Postman collection.
-        >Error Handling
-        >400 Bad Request: Invalid request data.
-        >404 Not Found: Resource not found.
-        >500 Internal Server Error: Server error.
+   #Usage
+   >Access the API using tools like Postman or curl.
+   >For detailed request and response formats, refer to the provided Postman collection.
+   >Error Handling
+   >400 Bad Request: Invalid request data.
+   >404 Not Found: Resource not found.
+   >500 Internal Server Error: Server error.
 
 
   #Conclusion
-        >This guide helps you set up and understand the Chatbot API. Refer to the provided Postman collection for detailed examples of API usage.
+  >This guide helps you set up and understand the Chatbot API. Refer to the provided Postman collection for detailed examples of API usage.
 
 #postman link : https://api.postman.com/collections/16433964-cfd24241-eb60-47a6-a09f-2ec5d47f83ba?access_key=PMAT-01H8SK6FEPHFWNJFJSQ3RZ2ZR6
