@@ -2,15 +2,15 @@
 >Welcome to the Chatbot API documentation. This guide provides instructions for setting up the API on your local system and understanding the codebase structure.
 
 #Getting Started
-    >Ensure you have Node.js installed on your system.
-    >Clone the repository to your local machine using git clone <repository_url>.
-    >Navigate to the project directory using the terminal.
+>Ensure you have Node.js installed on your system.
+>Clone the repository to your local machine using git clone <repository_url>.
+>Navigate to the project directory using the terminal.
 #Installation
-    >Install project dependencies by running npm install.
-    >Configure the SQLite database settings in config/config.json.
-    >Run the API
-    >Start the API server with node index.js.
-    >The API will be available at http://localhost:5000.
+>Install project dependencies by running npm install.
+>Configure the SQLite database settings in config/config.json.
+>Run the API
+>Start the API server with node index.js.
+>The API will be available at http://localhost:5000.
 
     
 #Codebase Overview
