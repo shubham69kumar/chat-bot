@@ -25,18 +25,24 @@
 >GET /users/:id: Retrieve a single user.
 >PUT /users/:id: Update a user.
 >DELETE /users/:id: Delete a user.
+
+
 #Chatbots
 >POST /users/:userId/chatbots: Create a new chatbot for a user.
 >GET /users/:userId/chatbots: List all chatbots for a user.
 >GET /chatbots/:chatbotId: Retrieve a single chatbot.
 >PUT /chatbots/:chatbotId: Update a chatbot.
 >DELETE /chatbots/:chatbotId: Delete a chatbot.
+
+
 #Conversations
 >POST /chatbots/:chatbotId/conversations: Start a new conversation for a chatbot.
 >GET /chatbots/:chatbotId/conversations: List all conversations for a chatbot.
 >GET /conversations/:conversationId: Retrieve a single conversation.
 >PUT /conversations/:conversationId: Update a conversation.
 >DELETE /conversations/:conversationId: End/delete a conversation.
+
+
 #End Users
 >POST /endusers: Register a new end user.
 >GET /endusers: List all end users.
